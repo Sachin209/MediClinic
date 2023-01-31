@@ -15,6 +15,6 @@ The profile information can be edited or deleted as needed, ensuring the accurac
 <br>
 <br>
 
-> **More Info:** [Additional Lab sheet](https://drive.google.com/file/d/1TjYGuAuO8G3lwPvx42_dJRUueFwWstd1/view?usp=sharing)
+> **To see additional details, including screenshots, please follow this link.:** [click here](https://drive.google.com/file/d/1rBhcaAeMmh5nBfEPVqmHh44k5jFZHuxs/view?usp=share_link)
 
  <!--  📸 Screenshots - [View](https://drive.google.com/drive/folderaring)  --!>
