@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "432427716187",
+    "firebase_url": "https://mediclinic-e7bf5-default-rtdb.firebaseio.com",
+    "project_id": "mediclinic-e7bf5",
+    "storage_bucket": "mediclinic-e7bf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432427716187:android:dac568aabe4a1f78ddf97e",
+        "android_client_info": {
+          "package_name": "com.example.mediclinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432427716187-2tmorvl045en084o49ac047vapnp62v2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO4GQvEcqsoNTVOog1Ro_UM0UgTDAJciA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432427716187-2tmorvl045en084o49ac047vapnp62v2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

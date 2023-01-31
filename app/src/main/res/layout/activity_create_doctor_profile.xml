@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateDoctorProfileActivity"
+    android:gravity="center"
+    android:background="@drawable/mainback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="89dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="5dp"
+
+            android:src="@drawable/doclogo" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="108dp"
+            android:layout_height="104dp"
+            android:layout_marginLeft="5dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="149dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="5dp"
+            android:onClick="vieHome"
+            android:src="@drawable/mainlogo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="674dp"
+        android:layout_gravity="center"
+        android:background="@drawable/formhilght"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewProfileTeacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/doctorView"
+            android:textAlignment="center"
+            android:textColor="#0C0C0C"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/docCreateName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/text_bo"
+            android:gravity="center"
+            android:hint="@string/docNameView"
+            android:inputType="text"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <EditText
+
+            android:id="@+id/docCreatePhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/text_bo"
+            android:gravity="center"
+            android:hint="@string/docPhoneView"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <EditText
+
+            android:id="@+id/docCreateEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/text_bo"
+            android:gravity="center"
+            android:hint="@string/docEmailView"
+            android:inputType="textEmailAddress"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <EditText
+
+            android:id="@+id/docCreateBirth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/text_bo"
+            android:gravity="center"
+            android:hint="@string/docBirthView"
+            android:inputType="date"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <EditText
+
+            android:id="@+id/docCreateAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/text_bo"
+            android:gravity="center"
+            android:hint="@string/docAddressView"
+            android:inputType="text"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <EditText
+
+            android:id="@+id/docCreateGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/text_bo"
+            android:gravity="center"
+            android:hint="@string/docGenderView"
+            android:inputType="text"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <EditText
+
+            android:id="@+id/docCreatePass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/text_bo"
+            android:gravity="center"
+            android:hint="@string/docPassView"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/create_btn"
+            android:layout_width="185dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_dr"
+            android:text="@string/createProfile"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/purple_500" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account?" />
+
+            <TextView
+                android:id="@+id/loginbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="vieSign"
+                android:padding="10dp"
+                android:text="  Login"
+                android:textColor="#0022FF" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
