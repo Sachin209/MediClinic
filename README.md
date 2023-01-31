@@ -9,9 +9,12 @@ In this project, I am responsible for the implementation of the doctor and patie
 This system provides a convenient solution for both doctors and patients to identify and access their respective profiles with ease.
 Doctors and patients can create their profiles by inputting relevant personal details, and the profiles are displayed on separate pages.
 The profile information can be edited or deleted as needed, ensuring the accuracy and up-to-date nature of the profiles.
-
+<br>
 
    ⚙ Technologies -  Android Studio(Android), Firebase, Java
 <br>
 <br>
-   📸 Screenshots - [View](https://drive.google.com/drive/folders/1p-IHShZfhdwXvDIZpUwdU1okY-ccPvQ2?usp=sharing)
+
+> **More Info:** [Additional Lab sheet](https://drive.google.com/file/d/1TjYGuAuO8G3lwPvx42_dJRUueFwWstd1/view?usp=sharing)
+
+ <!--  📸 Screenshots - [View](https://drive.google.com/drive/folderaring)  --!>
